@@ -11,7 +11,12 @@
   margin-top: 0px;
 }
 
-
+@media (max-width: 767px) {
+    /* Hide social icons */
+    .social-icon {
+        display: none;
+    }
+}
 
 .main-banner .item-1 {
   background-image: url(../img/background_1.jpg);
